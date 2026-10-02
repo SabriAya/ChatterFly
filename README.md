@@ -185,17 +185,11 @@ mern-social-media-chat/
 | POST | `/api/message` | Send a message |
 | GET | `/api/message/:chatId` | Get messages in a chat |
 
-*(Adjust endpoints to match your actual implementation.)*
-
 ---
 
 ## 📸 Preview
 
-> 💡 *Add screenshots or a GIF of your app here for a better visual impact.*
-
-```markdown
-![App Preview](./preview.gif)
-```
+![App Preview](./preview.png)
 
 ---
 
