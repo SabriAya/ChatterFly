@@ -124,25 +124,28 @@ The app will run at `http://localhost:3000` and the API at `http://localhost:500
 ```
 mern-social-media-chat/
 ├── backend/
-│   ├── config/          # DB & Cloudinary config
+│   ├── assets/          
 │   ├── controllers/     # Route logic
 │   ├── middleware/      # Auth & error handling
 │   ├── models/          # Mongoose schemas
 │   ├── routes/          # API endpoints
 │   ├── socket/          # Socket.io setup
+|   ├── uploads/
+|   ├── utils/
 │   ├── .env
-│   └── server.js
+│   └── index.js
 │
 ├── frontend/
 │   ├── public/
 │   ├── src/
 │   │   ├── components/  # Reusable UI components
 │   │   ├── pages/       # App pages
-│   │   ├── redux/       # Redux Toolkit slices
-│   │   ├── services/    # API calls
+│   │   ├── helpers/       
+│   │   ├── store/    
 │   │   ├── utils/       # Helpers
-│   │   ├── App.js
-│   │   └── index.js
+│   │   ├── App.jsx
+│   │   ├── main.jsx
+│   │   └── index.css
 │   ├── .env
 │   └── package.json
 │
